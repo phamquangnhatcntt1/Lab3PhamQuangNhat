@@ -1,12 +1,14 @@
-package leethu.b2.myapplication;
+package nhat.b2.myapplication;
 
 import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
 
-public class ConstraintActivity extends AppCompatActivity {
+import leethu.b2.myapplication.R;
+
+public class RelativeActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_constraint);
+        setContentView(R.layout.activity_relative);
     }
 }

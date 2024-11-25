@@ -1,10 +1,12 @@
-package leethu.b2.myapplication;
+package nhat.b2.myapplication;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import leethu.b2.myapplication.R;
 
 public class MainActivity extends AppCompatActivity {
 

@@ -1,7 +1,9 @@
-package leethu.b2.myapplication;
+package nhat.b2.myapplication;
 
 import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
+
+import leethu.b2.myapplication.R;
 
 public class LinearActivity extends AppCompatActivity {
     @Override

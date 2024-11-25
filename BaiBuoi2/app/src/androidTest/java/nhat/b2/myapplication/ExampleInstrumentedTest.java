@@ -1,4 +1,4 @@
-package leethu.b2.myapplication;
+package nhat.b2.myapplication;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("leethu.b2.myapplication", appContext.getPackageName());
+        assertEquals("nhat.b2.myapplication", appContext.getPackageName());
     }
 }

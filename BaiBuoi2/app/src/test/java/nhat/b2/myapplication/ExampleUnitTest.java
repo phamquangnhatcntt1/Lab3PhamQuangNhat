@@ -1,4 +1,4 @@
-package leethu.b2.myapplication;
+package nhat.b2.myapplication;
 
 import org.junit.Test;
 

@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "leethu.b2.myapplication"
+    namespace = "nhat.b2.myapplication"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "leethu.b2.myapplication"
+        applicationId = "nhat.b2.myapplication"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
