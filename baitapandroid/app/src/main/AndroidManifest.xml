@@ -32,7 +32,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Quocbai2"
+            android:name=".bai2"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -41,7 +41,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Quocbai3"
+            android:name=".bai3"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

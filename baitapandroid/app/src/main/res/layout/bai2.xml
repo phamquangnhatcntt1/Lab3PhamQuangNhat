@@ -6,10 +6,11 @@
     android:layout_height="match_parent"
     android:padding="16dp"
     android:id="@+id/main"
-    tools:context=".Quocbai2">
+    tools:context=".bai2">
 
+    <!-- Title TextView -->
     <TextView
-        android:layout_width="379dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#6A1B9A"
         android:gravity="center"
@@ -18,59 +19,60 @@
         android:textColor="#FFFFFF"
         android:textSize="20sp" />
 
+    <!-- TextView 2 -->
     <TextView
         android:id="@+id/textView2"
         android:layout_width="157dp"
         android:layout_height="156dp"
         android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart=" 0dp"
         android:layout_marginTop="48dp"
-        android:background="#FF5722"
-        android:gravity="center"
-        android:text="2"
-        android:textColor="#FFFFFF"
-        android:textSize="24sp" />
+        android:background="#E64A19"
+    android:gravity="center"
+    android:text="2"
+    android:textColor="#FFFFFF"
+    android:textSize="24sp" />
 
+    <!-- TextView 4 -->
     <TextView
         android:id="@+id/textView4"
         android:layout_width="157dp"
         android:layout_height="156dp"
         android:layout_below="@id/textView2"
         android:layout_alignStart="@id/textView2"
-        android:layout_marginStart="0dp"
-        android:layout_marginTop="0dp"
-        android:background="#00BCD4"
-        android:gravity="center"
-        android:text="4"
-        android:textColor="#FFFFFF"
-        android:textSize="24sp" />
+        android:background="#00838F"
+    android:gravity="center"
+    android:text="4"
+    android:textColor="#FFFFFF"
+    android:textSize="24sp" />
 
+    <!-- TextView 3 -->
     <TextView
         android:id="@+id/textView3"
         android:layout_width="167dp"
         android:layout_height="162dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="0dp"
-        android:layout_marginBottom="2dp"
-        android:background="#FFC107"
-        android:gravity="center"
-        android:text="3"
-        android:textColor="#FFFFFF"
-        android:textSize="24sp" />
+        android:background="#FF8F00"
+    android:gravity="center"
+    android:text="3"
+    android:textColor="#FFFFFF"
+    android:textSize="24sp" />
 
+    <!-- TextView 1 -->
     <TextView
         android:id="@+id/textView1"
         android:layout_width="167dp"
         android:layout_height="162dp"
         android:layout_above="@id/textView3"
         android:layout_alignEnd="@id/textView3"
-        android:layout_marginEnd="-1dp"
-        android:layout_marginBottom="1dp"
-        android:background="#FF5722"
+        android:background="#E64A19"
+
         android:gravity="center"
+
         android:text="1"
+
         android:textColor="#FFFFFF"
+
         android:textSize="24sp" />
+
 </RelativeLayout>
